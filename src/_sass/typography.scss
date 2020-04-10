@@ -1,0 +1,35 @@
+@import "./_vars.scss";
+
+h1 {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 54px;
+
+  @media (min-width: $tablet_min) and (max-width: $tablet_max) {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+%overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

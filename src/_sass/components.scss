@@ -1,0 +1,47 @@
+@import "colors";
+
+/* Button */
+
+%button {
+  min-height: 38px;
+  width: 210px;
+  padding: 0 20px;
+  border-radius: 4px;
+  background-color: $primary_clr;
+  color: #fefefe;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+
+  &[disabled] {
+    color: #8d8c8c;
+    background-color: #d7d7d7;
+    cursor: initial;
+
+    &:hover {
+      background-color: #d7d7d7;
+    }
+  }
+
+  &:hover {
+    background-color: $primary_darken_clr;
+  }
+}
+
+/* Flat button */
+
+%flat-button {
+  background-color: transparent;
+  color: $primary_clr;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+
+  &:hover {
+    color: $primary_darken_clr;
+  }
+}
+
+/* Input */
+
+

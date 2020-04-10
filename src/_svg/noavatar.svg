@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+    <defs>
+        <clipPath id="5zgra">
+            <path fill="#fff" d="M0 74V0h74v74zm2-37c0 19.33 15.67 35 35 35s35-15.67 35-35S56.33 2 37 2 2 17.67 2 37z"/>
+        </clipPath>
+    </defs>
+    <g>
+        <g opacity="1">
+            <path fill="#3a5384" d="M37 2c19.33 0 35 15.67 35 35S56.33 72 37 72 2 56.33 2 37 17.67 2 37 2z"/>
+            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20"
+                  stroke-width="4" d="M37 2c19.33 0 35 15.67 35 35S56.33 72 37 72 2 56.33 2 37 17.67 2 37 2z"
+                  clip-path="url(&quot;#5zgra&quot;)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+@import "vars";
+
+%container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: $grid_gap;
+  padding: 0 $grid_gap;
+
+  @media (max-width: $mobile) {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: $grid_gap_mob;
+    padding: 0 $grid_gap_mob;
+  }
+}

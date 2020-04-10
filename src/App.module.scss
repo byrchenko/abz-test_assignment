@@ -1,0 +1,14 @@
+@import "./_sass/components";
+@import  "./_sass/grid";
+
+.button {
+  @extend %button;
+}
+
+.flatBtn {
+  @extend %flat-button;
+}
+
+.grid {
+  @extend %container;
+}
